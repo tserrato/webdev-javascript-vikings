@@ -85,7 +85,7 @@ class War {
         else if (randomViking.health <= 0) { return `${randomViking.name} has died in act of combat`; }
     }
 
-    showSatus() {if (this.saxonArmy.length === 0) return "Vikings have won the war of the century!";
+    showStatus() {if (this.saxonArmy.length === 0) return "Vikings have won the war of the century!";
         if (this.vikingArmy.length === 0){ return "Saxons have fought for their lives and survive another day...";}
         if (this.vikingArmy.length >= 1 && this.saxonArmy.length >= 1) {return "Vikings and Saxons are still in the thick of battle."}
     }
